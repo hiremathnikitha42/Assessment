@@ -1,12 +1,10 @@
-import React from 'react';
-import ReactDOM from'react-dom';
+import React from 'react'
+import {Header} from 'semantic-ui-react'
 
-const App = () => {
-    return(
-        <div className="ui-block-header">
-           <h3> Studio Header</h3> 
-        </div>
-    );
-};
+const HeaderExample = () => (
+    <Header as='h3' block>
+        Block Header
+        </Header>
 
-ReactDOM.render(<App/>, document .querySelector('#root'))
+)
+ export default HeaderExample
